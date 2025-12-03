@@ -1,3 +1,5 @@
+import NavBar from './components/NavBar'
+
 import '@/assets/styles/globals.css'
 
 export const metadata = {
@@ -6,14 +8,15 @@ export const metadata = {
   description: 'Property Share is a platform for sharing properties'
 }
 
-const MainLayout = ({ children }) => {
+const mainLayout = ({ children }) => {
   return (
     <html>
       <body>
+        <NavBar />
         <main>{children}</main>
       </body>
     </html>
   )
 }
 
-export default MainLayout
+export default mainLayout
