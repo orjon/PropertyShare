@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///Users/orjon/DATA-SYNC/Development/2025-12%20PropertyShare/property-share-nextjs/app/properties/%5Bid%5D/page.jsx"],"sourcesContent":["const PropertyPage = async ({ params }) => {\n  const { id } = await params\n\n  return (\n    <div>\n      <h1>Property Page: {id}</h1>\n    </div>\n  )\n}\n\nexport default PropertyPage\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,eAAe,OAAO,EAAE,MAAM,EAAE;IACpC,MAAM,EAAE,EAAE,EAAE,GAAG,MAAM;IAErB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;gBAAG;gBAAgB;;;;;;;;;;;;AAG1B;uCAEe"}}]
-}
