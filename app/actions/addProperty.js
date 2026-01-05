@@ -27,7 +27,7 @@ export const addProperty = async (formData) => {
     amenities: formData.getAll('amenities'),
     images: formData
       .getAll('images')
-      .filter((image) => image.name !== '')
+      .filter((image) => image.name)
       .map((image) => image.name)
   }
   console.log(propertyData)
